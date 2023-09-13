@@ -48,3 +48,30 @@ button:hover{
     box-shadow: inset 5px 3px 15px black;
     background-color: #363636;
 }
+
+#resultado{
+    height: 206px;
+    font-size: 60px;
+    background-color: #2ECC71;
+}
+
+#limpar{
+    font-size: 30px;
+}
+
+#github {
+    position: absolute;
+    bottom: 8px;
+    right: 21px;
+}
+
+div#calculadora{
+    position: relative;
+    /* restante do código */
+}
+
+#github img {
+    border-radius: 15px;
+    width: 140px;
+    height: auto;
+}
