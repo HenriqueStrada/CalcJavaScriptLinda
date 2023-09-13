@@ -18,6 +18,18 @@ function addToScreen(value){
             screen.value = screen.value.substring(0, (screen.value.length -2));
             screen.value = screen.value + value;
         }
+        switch (screen.value[0]){
+            case "*":
+                screen.value = "";
+            case "+":
+                screen.value = "";
+            case "/":
+                screen.value = "";
+            case "-":
+                screen.value = "";
+            case ".":
+                screen.value = "";
+        }
     }
 }
 
